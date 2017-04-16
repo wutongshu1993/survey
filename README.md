@@ -1,6 +1,10 @@
 # survey
 
-> a survey with vuw and express and mongodb
+调查问卷，基于vue+express+mongodb+vue-router+axios
+
+主要功能：实现问卷的新建、编辑、删除、填写问卷、以及问卷结果的可视化统计。当问卷处于未发布状态可以对问卷进行修改。如果已经发布了，并且没有过期，则可以填写问卷。
+
+数据库的实现采用mongoose
 
 ## Build Setup
 
